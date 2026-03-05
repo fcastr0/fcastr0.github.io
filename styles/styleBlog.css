@@ -1,0 +1,61 @@
+@font-face { font-family: RobotoMono; src: url('../fonts/RobotoMono.ttf'); } 
+@font-face { font-family: RobotoThin; src: url('../fonts/RobotoThin.ttf')}
+@font-face { font-family: RobotoLight; src: url('../fonts/RobotoMono-Light.ttf')}
+@font-face { font-family: AsapRegular; src: url('../fonts/asap/Asap-Regular.ttf')}
+@font-face { font-family: AsapMedium; src: url('../fonts/asap/Asap-Medium.ttf')}
+
+h1{
+    font-family: AsapMedium;
+}
+h3{
+    font-family: AsapRegular;
+}
+p{
+    font-family: AsapRegular;
+}
+body{
+    margin-left:calc(100%/14.816);
+    margin-right:calc(100%/14.816);   
+}
+.sidebar{
+    position: absolute;
+    margin-left:calc(80%/4.1);
+    top: 16px;
+}
+.sidebar p{
+    font-family: AsapRegular;
+    text-align: left;
+}
+.grid{
+    display:grid;
+    grid-template-columns: .5fr .5fr;
+    word-break: break-all;
+}
+.cell p{
+    width:90%;
+}
+.cell h3{
+    width:90%;
+    margin-top:1%;
+}
+.cell{
+    margin-bottom:5%;
+}
+.child:first-child{
+    width: 40%;
+    float: left;
+}
+.header h1{
+    display: inline-block;
+    margin-bottom:0%;
+}
+.header span { 
+    margin-left: 0.5%; 
+    margin-top:0%;
+    display: inline-block;
+}
+.header p{
+    margin-bottom:0;
+    margin-top:3%;
+
+}

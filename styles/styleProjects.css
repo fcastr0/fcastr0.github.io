@@ -1,0 +1,54 @@
+@font-face { font-family: RobotoMono; src: url('../fonts/RobotoMono.ttf'); } 
+@font-face { font-family: RobotoThin; src: url('../fonts/RobotoThin.ttf')}
+@font-face { font-family: RobotoLight; src: url('../fonts/RobotoMono-Light.ttf')}
+h1{
+    font-family: RobotoMono;
+}
+h2{
+    font-family: RobotoThin;
+}
+h3{
+    font-family: RobotoThin;
+}
+body p{
+    font-family: RobotoLight;
+    width: 600px;
+}
+body{
+    width: 1000px;
+}
+.genderdisparity{
+    margin-bottom:150px;
+}
+img{
+    float: right;
+    margin-right: 50px;
+}
+.home{
+    margin:auto;
+    margin-top: 300px;
+}
+.foodgentrification{
+    margin-top: 100px;
+}
+.OfficerSalaries{
+    margin-top: 100px;
+}
+.bottom{
+    float:none;
+    margin:auto;
+    font-family: RobotoThin;
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    align-content: stretch;
+    align-items: center;
+    width:400px;
+}
+.column{
+    float: left;
+    width: 50%;
+  }

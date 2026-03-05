@@ -1,0 +1,187 @@
+@font-face { font-family: RobotoReg; src: url('../fonts/Roboto-Regular.ttf'); } 
+@font-face { font-family: RobotoLight; src: url('../fonts/Roboto-Light.ttf')}
+html{
+    background-color:#f3f6fe;
+}
+h3{
+    font-family: RobotoLight;
+    margin-top:12px;
+    margin-bottom: calc(15%/9.20);
+    font-size:24px;
+    line-height: 1.23em;
+}
+a{
+    text-decoration: none;
+}
+.slide{
+    display:block;
+    width:50%;
+    float:left;
+}
+.header{
+    display:grid;
+    grid-template-columns: auto 30%;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0% 3%;
+}
+.header-resume{
+    font-family:RobotoReg;
+    font-size:24px;
+    margin-left:3px;
+    text-align: right;
+    margin-bottom: 0;
+}
+.grid-cont{
+    padding-left:3%; 
+    padding-right:3%;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    display:grid;
+    grid-template-columns:45% 45%;
+    grid-column-gap:10%;
+    grid-row-gap: 15px;
+}
+.grid-cont img, video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 1px black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height:22.3125vw;
+    object-fit:cover;
+    object-position:50% top;
+}
+
+.grid-item p{
+    font-family:RobotoLight;
+    font-size:20px;
+    color:#666666;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+.intro{
+    width:75%;
+    max-width:680px;
+    margin-left:10%;
+    line-height: 1.75rem;
+}
+
+.intro p{
+    font-size:20px;
+    font-family: RobotoReg;
+    margin-bottom:15px;
+    margin-top:10px;
+}
+
+.links{
+    max-width:680px;
+    margin-left:10%;
+}
+
+.links img{
+    margin-right:7px;
+}
+
+@media screen and (max-width: calc(650%/14/816)) {
+    img {
+         width: calc(180%/14.816);
+         height:calc(200%/14.816);
+    }
+}
+@media screen and (max-width:850px) {
+    .wh-gentrification{
+        grid-template-columns: 0fr;
+    }
+}
+
+a:link{
+    color:#444444;
+}
+a:visited{
+    color:#444444;
+}
+a:hover{
+    color:blue;
+}
+
+@media screen and (max-width:850px){
+    .grid-cont{
+        grid-template-columns:100%;
+        grid-row-gap:10px;
+        grid-column-gap:0;
+    }
+    .grid-cont img,video{
+        height:45vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    .intro p{
+        font-size:18px;
+    }
+    h1{
+        font-size:24px;
+    }
+    h3{
+        font-size:20px;
+    }
+    .header p{
+        margin-top:15px;
+    }
+    .grid-item p{
+        font-size:18px;
+    }
+}
+
+.intro span{
+    text-wrap: nowrap;
+}
+
+.grid-item span{
+    text-wrap: nowrap;
+}
+
+.header-name{
+    font-family: "HelveicaNeue", "Helvetica Neue", Helvetica;
+    bottom: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-align:left;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:425px){
+    .intro p{
+        font-size:17px;
+        line-height:1.5rem;
+    }
+    .grid-cont{
+        grid-row-gap:8px;
+    }
+
+    .header-name{
+        font-size: 24px;
+    }
+
+    .header-resume{
+        font-size: 22px;
+    }
+
+    .intro span{
+        text-wrap: wrap;
+    }
+    
+    .grid-item span{
+        text-wrap: wrap;
+    }
+}
+.trophy-link{
+    text-decoration:none !important;
+    margin-left:5px;
+}
+
+
